@@ -1,0 +1,464 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(waweb.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 8%;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: #00b3ff;
+    font-size: 45px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #00b3ff;
+    transition: 0.4s;
+}
+
+.btn {
+    background-color: #00b3ff;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform 0.4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.content {
+    position: absolute;
+    top: 70%;
+    left: 8%;
+    transform: translateY(-50%);
+    padding-bottom: 200px;
+}
+
+h1 {
+    color: white;
+    margin: 20px 0;
+    font-size: 75px;
+}
+
+h3 {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: #ededed;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.newslatter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.newslatter form {
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+    margin-left: 0; 
+}
+
+.newslatter form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 18px 130px 14px 10px;
+    border: 2px solid #00b3ff;
+    outline: none;
+    border-radius: 30px;
+}
+
+.newslatter form input:last-child {
+    font-family: sans-serif;
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #00b3ff;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+    cursor: pointer;
+}
+
+.about {
+    width: 100%;
+    padding: 10% 0;
+    background-color: #191919;
+    background-image: url(waweb.jpg);
+}
+
+.about img {
+    height: 350px;                
+    width: 350px;                 
+    border: px solid #00b3ff;  
+    border-radius: 50%;           
+    overflow: hidden;      
+    margin-left: 100px;       
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 45px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p {
+    font-family: sans-serif;
+    color: #00b3ff;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+button {
+    font-family: sans-serif;
+    background-color: #00b3ff;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+.container {
+    background-image: url(waweb.jpg);
+    margin: 0;
+    padding: 35px 10%;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.box p {
+    color: #ededed;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.box h4 {
+    color: black;
+    padding-top: 50px;
+}
+
+.education {
+    width: 100%;
+    padding: 50px 0;
+    background-image: url(waweb.jpg);
+}
+
+.education .main {
+    max-width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 50px 0;
+    background-color: #2c2f36;
+}
+
+.education h2 {
+    color: white; 
+    font-size: 60px; 
+    margin-bottom: 30px; 
+    text-align: center; 
+    width: 100%; 
+}
+
+.education h4{
+    color: white;
+    font-size: 25px;
+    margin-top: -80px;
+}
+
+.main {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    max-width: 1200px; 
+    width: 100%;
+    margin: 0 auto; 
+}
+.education-item {
+    background-color: #1f232b; 
+    border-radius: 8px; 
+    padding-top: 100px;
+    padding-bottom: 2px;
+    text-align: center;
+    border: 2px solid #00b3ff; 
+}
+
+.education-item p {
+    color: #ededed;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 25px;
+}
+.skill{
+    background-image: url(waweb.jpg);
+    width: 100%px;
+    padding: 100px 0px;
+}
+.skill h5{
+    color: #ededed;
+    font-size: 25px;
+    margin-bottom: 15pxcolor;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #1f232b;
+    border-radius: 15%;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #00b3ff;    
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: white;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    font-family: sans-serif;
+    background-color: #00b3ff;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #00b3ff;
+    cursor: pointer;
+}
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background-image: url(waweb.jpg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{ 
+    font-family: sans-serif; 
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact-me .button-two{
+    font-family: sans-serif;
+    background-color: #00b3ff;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 13px 30px;
+    transition: .4s;
+}
+.contact-me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid #00b3ff;
+    cursor: pointer;
+}
+footer {
+    position: relative;
+    width: 100%;
+    height: 400px; 
+    background-image: url(waweb.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 30px;
+}
+
+footer p:nth-child(1) {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+    position: relative;
+    top: -80px; 
+}
+
+footer p:nth-child(2) {
+    font-family: sans-serif;
+    color: white;
+    font-size: 21px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+    position: relative;
+    top: -60px;
+}
+.social {
+    display: flex;
+    margin-top: 0px;
+}
+
+.social a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1f232b;
+    border-radius: 50%;
+    margin: 10px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    top: -5px;
+}
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: .3s;
+    margin-bottom: 0px;
+}
+
+.end {
+    font-family: sans-serif;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    position: relative;
+    top: 50px; 
+    text-align: center;
+}
